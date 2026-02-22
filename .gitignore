@@ -1,0 +1,13 @@
+# GitHub Sync 配置
+# 將這些 sensitive/temporary files 排除在版本控制之外
+
+.openclaw/
+credentials/
+cron/
+canvas/
+agents/main/agent/
+agents/main/sessions/
+*.log
+*.tmp
+.env
+.DS_Store
