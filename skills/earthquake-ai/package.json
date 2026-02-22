@@ -1,0 +1,28 @@
+{
+  "name": "earthquake-ai-skill",
+  "version": "1.0.0",
+  "description": "地震學 AI 助手技能 - 整合 USGS、PyGMT、Gemini、NotebookLM、HuggingFace",
+  "main": "src/tools/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "openclaw",
+    "earthquake",
+    "seismology",
+    "pygmt",
+    "gemini",
+    "ai",
+    "education"
+  ],
+  "author": "Dayi",
+  "license": "MIT",
+  "dependencies": {
+    "@openclaw/tools": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

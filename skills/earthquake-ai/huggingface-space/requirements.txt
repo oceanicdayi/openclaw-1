@@ -1,0 +1,8 @@
+# HuggingFace Space requirements
+# 將這些內容複製到 Space 的 requirements.txt
+
+pygmt>=0.10.0
+requests>=2.31.0
+numpy>=1.24.0
+# HuggingFace Space 會提供 Gradio 但保留以便自定義
+# gradio>=4.0.0
