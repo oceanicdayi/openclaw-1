@@ -1,0 +1,27 @@
+{
+  "id": "earthquake-ai",
+  "name": "Earthquake AI Skill",
+  "version": "1.0.0",
+  "description": "地震學 AI 助手技能，整合地震數據查詢、PyGMT 繪圖、Gemini AI 解釋、教材生成與 Space 部署",
+  "author": "Dayi <dayi@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/oceanicdayi/earthquake-ai-skill",
+  "tags": ["seismology", "education", "pygmt", "gemini", "ai", "visualization"],
+  "capabilities": [
+    "usgs.fetch",
+    "pygmt.plot",
+    "gemini.explain",
+    "notebooklm.generate",
+    "huggingface.deploy",
+    "stats.analyze"
+  ],
+  "icons": {
+    "default": "🌋"
+  },
+  "install": {
+    "script": "install.js",
+    "dependencies": {
+      "node": ["pygmt", "google-generativeai", "requests", "numpy", "pandas"]
+    }
+  }
+}

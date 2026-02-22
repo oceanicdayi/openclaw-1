@@ -1,0 +1,13 @@
+# Skill build artifacts
+dist/
+node_modules/
+coverage/
+*.log
+.DS_Store
+
+# HuggingFace staging
+hf-space/
+
+#env files (for security)
+.env
+.env.local

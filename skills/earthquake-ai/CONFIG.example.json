@@ -1,0 +1,23 @@
+{
+  // OpenClaw 配置範例：將特定 channel 路由到 Earthquake AI agent
+  "agents": {
+    "earthquake": {
+      "model": "anthropic/claude-sonnet-4.5",
+      "system": "你是地動先知 🌋，專門協助地震學教學與研究。擅長使用 PyGMT 繪圖、USGS 數據分析、Gemini 解釋。",
+      "skills": ["earthquake-ai"],
+      "sandbox": {
+        "mode": "non-main"
+      }
+    },
+    "defaults": {
+      "route": {
+        "telegram": "earthquake",  // 所有 Telegram 訊息路由到該 agent
+        "discord": "earthquake"
+      }
+    }
+  },
+  "env": {
+    "GEMINI_API_KEY": "your_key_here",
+    "HUGGINGFACE_TOKEN": "your_token_here"
+  }
+}
